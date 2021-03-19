@@ -29,28 +29,20 @@ input {
   font-size: 12px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  -webkit-box-shadow: inset 1px 1px 4px rgba(100,100,100,0.3);
-     -moz-box-shadow: inset 1px 1px 4px rgba(100,100,100,0.3);
-      -ms-box-shadow: inset 1px 1px 4px rgba(100,100,100,0.3);
-       -o-box-shadow: inset 1px 1px 4px rgba(100,100,100,0.3);
-          box-shadow: inset 1px 1px 4px rgba(100,100,100,0.3);
+  box-shadow: inset 1px 1px 4px rgba(100,100,100,0.3);
 }
 
 input:focus {
   border: 1px transparent #ddd;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-      -ms-box-shadow: none;
-       -o-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 input.error {
   outline: none;
   border: 1px solid rgba(255, 0, 0, 0.3);
-  -webkit-box-shadow: inset 0px 0px 6px rgba(255, 0, 0, 0.5);
-     -moz-box-shadow: inset 0px 0px 6px rgba(255, 0, 0, 0.5);
-      -ms-box-shadow: inset 0px 0px 6px rgba(255, 0, 0, 0.5);
-       -o-box-shadow: inset 0px 0px 6px rgba(255, 0, 0, 0.5);
-          box-shadow: inset 0px 0px 6px rgba(255, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 6px rgba(255, 0, 0, 0.5);
+}
+
+audio{
+  margin: 10px auto;
 }
