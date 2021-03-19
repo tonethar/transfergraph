@@ -1,9 +1,8 @@
-transfergraph
-=============
+# transfergraph
 
-Quick and dirty tool to graph transfer functions.
+- A quick and dirty tool to graph transfer functions
+- I added:
+  - An `<audio>` element so that you can immediately hear the effect your transfer function has on the Waveshaper
 
 -------------
-Just a little thing I built to help me visualize what my Waveshapers are doing in some Web Audio projects I'm working on.
 
-And yes, I'm eval-ing the input. So go ahead and try a transfer function of `alert('PWNED')` and just get it out of your system.
